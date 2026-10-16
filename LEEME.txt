@@ -1,0 +1,15 @@
+PASA EL RATO - Proyecto Android listo para compilar
+
+OPCION A (Android Studio, la mas facil):
+1. Instala Android Studio en tu PC.
+2. File > Open > selecciona la carpeta JuegosApp.
+3. Espera a que termine "Gradle Sync" (descarga lo necesario solo).
+4. Build > Build Bundle(s) / APK(s) > Build APK(s).
+5. El APK queda en app/build/outputs/apk/debug/app-debug.apk
+   Pasalo al movil e instalalo (permite "origenes desconocidos").
+
+OPCION B (linea de comandos, con Android SDK instalado):
+   gradle wrapper && ./gradlew assembleDebug
+
+El juego esta en app/src/main/assets/index.html (HTML/JS), puedes
+editarlo y probarlo tambien abriendolo en cualquier navegador.
